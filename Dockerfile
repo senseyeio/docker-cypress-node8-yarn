@@ -31,3 +31,6 @@ RUN apt-get install -y \
 RUN apt-get install -y \
     libasound2 \
     xvfb
+
+# Install Cypress
+RUN yarn global add cypress
