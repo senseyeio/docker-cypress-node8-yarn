@@ -34,3 +34,5 @@ RUN apt-get install -y \
 
 # Install Cypress
 RUN yarn global add cypress
+
+CMD ["/bin/bash"]
