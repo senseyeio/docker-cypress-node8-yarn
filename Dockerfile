@@ -32,7 +32,7 @@ RUN apt-get install -y \
     libasound2 \
     xvfb
 
-# Install Cypress
-RUN yarn global add cypress
+# Install Cypress and Typescript
+RUN yarn global add cypress typescript
 
 CMD ["/bin/bash"]
