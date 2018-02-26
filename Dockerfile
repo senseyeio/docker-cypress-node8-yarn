@@ -33,7 +33,7 @@ RUN apt-get install -y \
     xvfb
 
 # Install Cypress and Typescript
-RUN yarn global add cypress typescript
-RUN cypress verify
+#RUN yarn global add cypress typescript
+#RUN cypress verify
 
 CMD ["/bin/bash"]
